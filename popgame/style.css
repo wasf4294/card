@@ -1,0 +1,7 @@
+*{box-sizing: border-box;}
+html,body{overflow: hidden;margin: 0;padding: 0;}
+.card_box_1{position: absolute;width: 50vmin;height: 20vmin;border: 1px solid;left: 50%;top: 50%;translate: -50% -50%;display: flex;align-items: center;justify-content: space-around;}
+.card{width: 20%;height: 50%;border: 1px solid;background-color: aqua;transition: .5s;}
+.card.hover{transform: rotateY(180deg);background-color: blueviolet;}
+.btn_1{width: 20vmin;height: 10vmin;background-color: gold;position: absolute;top: 70%;translate: -50% 0%;left: 50%;}
+.btn_2{width: 20vmin;height: 10vmin;background-color: green;position: absolute;top: 70%;translate: -50% 0%;left: 50%;display: none;}
